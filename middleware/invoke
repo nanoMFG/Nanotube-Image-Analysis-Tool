@@ -1,0 +1,7 @@
+#!/bin/sh
+
+/usr/bin/invoke_app "$@" -C @tool/bin/run_FT2D_GUI.sh \
+                         -t ntat \
+                         -w captive \
+                         -c @tool/bin/link_examples \
+                         -c filexfer
